@@ -1,0 +1,29 @@
+div {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+img {
+    filter:grayscale(0.75);
+}
+
+figure{
+    border: 5px solid black;
+    margin:5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption{
+    text-align: center;
+}
+
+img:hover {
+    filter:grayscale(0);
+}
+
+@media all and (prefers-reduced-motion:reduce){
+    img {
+        animation:none;
+    }
+}
