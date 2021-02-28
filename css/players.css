@@ -1,25 +1,76 @@
-div {
+nav {
+    background-color: #228b22;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    text-align: justify;
+    margin: 140px;
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+}
+
+nav a:hover, nav a:focus {
+    color: whitesmoke;
+}
+
+div#baseball-cards {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-img {
-    filter:grayscale(0.75);
-}
-
-figure{
-    border: 5px solid black;
-    margin:5px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 15px;
 }
 
-figcaption{
+.baseball-card {
+    border-style: hidden;
+    margin-top: 20px;
+    background-color: transparent;
+    width: 300px;
+    height: 450.7px;
+    perspective: 1000px;
+}
+
+.baseball-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
     text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-img:hover {
-    filter:grayscale(0);
+.baseball-card:hover .baseball-card-inner, 
+.baseball-card:focus-within .baseball-card-inner,
+.baseball-card:focus .baseball-card-inner {
+    transform: rotateY(180deg);
+}
+
+.baseball-card-front, .baseball-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.baseball-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.baseball-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+footer p {
+    margin-top: 20px;
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
 }
 
 @media all and (prefers-reduced-motion:reduce){
