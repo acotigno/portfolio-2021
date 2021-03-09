@@ -16,9 +16,12 @@ nav a:hover {
     color: whitesmoke;
 }
 
+.current {
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 480px) {
     nav {
-        /*Your code here again.*/
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -65,7 +68,7 @@ nav a:hover {
     align-items: center;
 }
 
-img {
+.team img {
     width: 100px;
     height: 100px;
 }
