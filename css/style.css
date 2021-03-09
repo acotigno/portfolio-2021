@@ -16,6 +16,78 @@ nav a:hover {
     color: whitesmoke;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.start_image, .about_image, .players_image, .teams_image {
+    position: relative;
+    opacity: 0.65;
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.start_image {
+    background-image:url('../images/breg_bat.jpg');
+    min-height: 100%;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .start_image {
+        background-image:url('../images/breg_bat.jpg');
+        height: 100px;
+        width: 100px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    nav {
+        /*Your code here again.*/
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+    nav a {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+}
+
+/* .about_image {
+    background-image:url('../images/degrom_pitch.jpg');
+    min-height: 400px;
+    margin-bottom: 50px;
+}
+
+.players_image {
+    background-image:url('../images/tatis_bat.jpg');
+    min-height: 300px;
+    margin-bottom: 50px;
+}
+
+.teams_image {
+    background-image:url('../images/trout_bat.jpg');
+    min-height: 200px;
+    margin-bottom: 50px;
+} */
+/* .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+} */
+
 footer p {
     margin-top: 20px;
     font-family: 'Merriweather', Arial, Helvetica, sans-serif;
