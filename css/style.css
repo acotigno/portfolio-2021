@@ -21,25 +21,6 @@ nav a:hover {
     text-transform: uppercase;
 }
 
-body#home, html {
-    height: 100%;
-    margin: 0;
-}
-.start_image, .about_image, .players_image, .teams_image {
-    position: relative;
-    opacity: 0.65;
-    /* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-}
-
-.start_image {
-    background-image:url('../images/breg_bat.jpg');
-    min-height: 100%;
-    margin-bottom: 50px;
-}
-
 @media screen and (max-width: 480px) {
     nav {
         display: flex;
@@ -77,7 +58,6 @@ body#home, html {
 
 @media screen and (min-width: 481px) {
     nav {
-        /*Your code here again.*/
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -119,31 +99,76 @@ body#home, html {
 
 /* For index.html */
 
-/* .about_image {
-    background-image:url('../images/degrom_pitch.jpg');
-    min-height: 400px;
-    margin-bottom: 50px;
+body#home {
+    height: 100%;
+    margin: 0;
 }
 
-.players_image {
-    background-image:url('../images/tatis_bat.jpg');
-    min-height: 300px;
-    margin-bottom: 50px;
-}
+.start_image, .about_image, .players_image, .teams_image {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .start_image {
+    background-image: url("../images/degrom_pitch.jpg");
+    min-height: 700px;
+  }
+  
+  .about_image {
+    background-image: url("../images/breg_bat.jpg");
+    min-height: 700px;
+  }
+  
+  .players_image {
+    background-image: url("../images/bryant_bat.jpg");
+    min-height: 600px;
+  }
 
-.teams_image {
-    background-image:url('../images/trout_bat.jpg');
-    min-height: 200px;
-    margin-bottom: 50px;
-} */
-/* .caption {
+  .teams_image {
+    background-image: url("../images/trout_field.jpg");
+    min-height: 600px;
+  }
+  
+  .caption {
     position: absolute;
     left: 0;
     top: 50%;
     width: 100%;
     text-align: center;
     color: #000;
-} */
+    font: 20px 'Merriweather', Arial, Helvetica, sans-serif;
+  }
+  
+  .caption span.border {
+    background-color: #228b22;
+    color: #000;
+    padding: 0px;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px 'Merriweather', Arial, Helvetica, sans-serif;
+    color:#000;
+    text-align: center;
+  }
+
+  .value {
+      padding:50px 80px;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .start_image, .about_image, .players_image, .teams_image {
+      background-attachment: scroll;
+    }
+  }
 
 /* For about.html */
 input[type=submit] {
@@ -244,6 +269,27 @@ p.description {
 
 /* For all pages */
 
+body {
+    background-color: #9B7653;
+}
+
+a.skip{
+    background: white;
+    left: 0;
+    padding: 7px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -50px;
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+}
+
+a.skip:focus {
+    position:absolute;
+    top:10px;
+}
+
 footer {
     background-color: #228b22;
 }
@@ -251,6 +297,10 @@ footer {
 footer p {
     margin-top: 20px;
     font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+}
+
+.active {
+    text-transform: uppercase;
 }
 
 @media all and (prefers-reduced-motion:reduce){
