@@ -38,8 +38,9 @@ nav a:hover {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        align-content: center;
     }
 
     div#baseball-cards {
@@ -52,6 +53,12 @@ nav a:hover {
 
     input[type=text], select, textarea {
         width: 95%;
+    }
+
+    .flex-container > div {
+        flex-basis: 100%;
+        align-self: center;
+        margin-bottom: 50px;
     }
     
 }
@@ -81,6 +88,15 @@ nav a:hover {
         width: 98%;
     }
 
+    .flex-container > div {
+        flex-basis: 20%;
+        margin-bottom: 25px;
+    }
+
+    .flex-container{
+        margin-left: 25px;
+    }
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -94,6 +110,13 @@ nav a:hover {
 
     input[type=text], select, textarea {
         width: 100%;
+    }
+
+    .flex-container > div {
+        flex-basis: 20%;
+    }
+    .flex-container{
+        margin-left: 100px;
     }
 }
 
@@ -154,13 +177,25 @@ body#home {
   h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
-    font: 20px 'Merriweather', Arial, Helvetica, sans-serif;
+    font: 25px 'Merriweather', Arial, Helvetica, sans-serif;
     color:#000;
     text-align: center;
   }
 
+  a {
+      text-decoration: #000;
+  }
+
+  a:visited {
+    color: #000;
+  }
+
   .value {
       padding:50px 80px;
+  }
+  .value p {
+      text-align: justify;
+      font: 15px 'Merriweather', Arial, Helvetica, sans-serif;
   }
   
   /* Turn off parallax scrolling for tablets and phones */
@@ -178,11 +213,27 @@ input[type=submit] {
 p.bio {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: inline-block;
 }
 
 img#citi {
-    width: 250px;
-    height: 300px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 300px;
+    height: 350px;
+}
+
+h1 {
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+label, input, textarea {
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
 }
 
 
@@ -265,6 +316,10 @@ p.description {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.flex-container p {
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
 }
 
 /* For all pages */
