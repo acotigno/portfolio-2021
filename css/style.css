@@ -6,7 +6,7 @@ nav {
 nav a {
     font-size: 20px;
     font-weight: 400;
-    color: black;
+    color: #000;
     text-decoration: none;
     text-align: justify;
     margin: 140px;
@@ -138,7 +138,7 @@ nav a:hover {
     div.team:focus, div.team:hover{
         border-radius: 10px;
         border-width: 5px;
-        border-color: red;
+        border-color: #ff0000;
         filter: grayscale(0)
     }
 }
@@ -308,7 +308,7 @@ label, input, textarea {
 
 .baseball-card-front {
     background-color: #bbb;
-    color: black;
+    color: #000;
 }
 
 .baseball-card-back {
