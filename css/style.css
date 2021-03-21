@@ -313,7 +313,7 @@ label, input, textarea {
 
 .baseball-card-back {
     background-color: #000;
-    color: white;
+    color: #FFF;
     font-family: 'Merriweather', Arial, Helvetica, sans-serif;
     transform: rotateY(180deg);
 }
