@@ -94,7 +94,20 @@ nav a:hover {
     }
 
     .flex-container{
-        margin-left: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    div.team img {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    div.team p {
+        text-align: center;
     }
 
 }
@@ -112,11 +125,21 @@ nav a:hover {
         width: 100%;
     }
 
-    .flex-container > div {
-        flex-basis: 20%;
-    }
     .flex-container{
-        margin-left: 100px;
+        margin-left: 0px;
+    }
+    div.team{
+        filter:grayscale(0.75);
+        transition-property: border-radius, border-color, border-width, filter;
+        transition-duration: 0s;
+        transition-timing-function: linear;
+    }
+
+    div.team:focus, div.team:hover{
+        border-radius: 10px;
+        border-width: 5px;
+        border-color: red;
+        filter: grayscale(0)
     }
 }
 
@@ -126,6 +149,8 @@ body#home {
     height: 100%;
     margin: 0;
 }
+
+
 
 .start_image, .about_image, .players_image, .teams_image {
     position: relative;
@@ -142,7 +167,7 @@ body#home {
   }
   
   .about_image {
-    background-image: url("../images/breg_bat.jpg");
+    background-image: url("../images/home_plate.jpg");
     min-height: 700px;
   }
   
@@ -174,10 +199,10 @@ body#home {
     letter-spacing: 5px;
   }
   
-  h3 {
+  h2 {
     letter-spacing: 5px;
     text-transform: uppercase;
-    font: 25px 'Merriweather', Arial, Helvetica, sans-serif;
+    font: 35px 'Merriweather', Arial, Helvetica, sans-serif;
     color:#000;
     text-align: center;
   }
@@ -226,10 +251,19 @@ img#citi {
     height: 350px;
 }
 
+img#citi2 {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 300px;
+    height: 350px;
+}
+
 h1 {
     font-family: 'Merriweather', Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
+    color:#000;
 }
 
 label, input, textarea {
@@ -278,10 +312,51 @@ label, input, textarea {
 }
 
 .baseball-card-back {
-    background-color: #005A9C;
+    background-color: #000;
     color: white;
     font-family: 'Merriweather', Arial, Helvetica, sans-serif;
     transform: rotateY(180deg);
+}
+
+#betts-card.baseball-card-back {
+    background-color: #005A9C;
+}
+
+#bregman-card.baseball-card-back {
+    background-color: #FF8000;
+    color: #000;
+}
+
+#bryant-card.baseball-card-back {
+    background-color: #0000FF;
+}
+
+#degrom-card.baseball-card-back {
+    background-color: #002C74;
+}
+
+#tatis-card.baseball-card-back {
+    background-color: #BD8B28;
+    color:#000;
+}
+
+#trout-card.baseball-card-back {
+    background-color: #8F0028;
+    color:#FFF;
+}
+
+#cole-card.baseball-card-back {
+    background-color: #001C43;
+    color:#FFF;
+}
+
+#yelich-card.baseball-card-back {
+    background-color: #ffc52f;
+    color:#000;
+}
+
+#arenado-card.baseball-card-back {
+    background-color: #C41E3A;
 }
 
 p.headline {
@@ -310,16 +385,14 @@ p.description {
     width: 100px;
     height: 100px;
 }
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+
+div.team{
+    border: 2px solid #000;
 }
 
 .flex-container p {
     font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
 /* For all pages */
