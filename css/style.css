@@ -184,7 +184,7 @@ body#home {
   .caption {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 40%;
     width: 100%;
     text-align: center;
     color: #000;
@@ -402,7 +402,7 @@ body {
 }
 
 a.skip{
-    background: white;
+    background: #FFF;
     left: 0;
     padding: 7px;
     -webkit-transition: top 1s ease-out;
