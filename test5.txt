@@ -1,0 +1,39 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Tm</th>
+      <th>BA</th>
+      <th>HR</th>
+      <th>RBI</th>
+      <th>SB</th>
+      <th>OBP</th>
+      <th>OPS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>4</th>
+      <td>2019</td>
+      <td>SDP</td>
+      <td>0.317</td>
+      <td>22</td>
+      <td>53</td>
+      <td>16</td>
+      <td>0.379</td>
+      <td>0.969</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2020</td>
+      <td>SDP</td>
+      <td>0.277</td>
+      <td>17</td>
+      <td>45</td>
+      <td>11</td>
+      <td>0.366</td>
+      <td>0.937</td>
+    </tr>
+  </tbody>
+</table>
