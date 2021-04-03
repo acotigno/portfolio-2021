@@ -2,82 +2,50 @@
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Year</th>
-      <th>Tm</th>
-      <th>BA</th>
+      <th>Date</th>
+      <th>OPP</th>
+      <th>Result</th>
+      <th>AB</th>
+      <th>R</th>
+      <th>H</th>
+      <th>2B</th>
+      <th>3B</th>
       <th>HR</th>
       <th>RBI</th>
-      <th>SB</th>
-      <th>OBP</th>
-      <th>OPS</th>
+      <th>BB</th>
+      <th>SO</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>6</th>
-      <td>2015</td>
-      <td>BOS</td>
-      <td>0.291</td>
-      <td>18</td>
-      <td>77</td>
-      <td>21</td>
-      <td>0.341</td>
-      <td>0.820</td>
+      <th>0</th>
+      <td>Fri 4/2</td>
+      <td>@COL</td>
+      <td>W11-6</td>
+      <td>5</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
-      <th>7</th>
-      <td>2016</td>
-      <td>BOS</td>
-      <td>0.318</td>
-      <td>31</td>
-      <td>113</td>
-      <td>26</td>
-      <td>0.363</td>
-      <td>0.897</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2017</td>
-      <td>BOS</td>
-      <td>0.264</td>
-      <td>24</td>
-      <td>102</td>
-      <td>26</td>
-      <td>0.344</td>
-      <td>0.803</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2018</td>
-      <td>BOS</td>
-      <td>0.346</td>
-      <td>32</td>
-      <td>80</td>
-      <td>30</td>
-      <td>0.438</td>
-      <td>1.078</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>2019</td>
-      <td>BOS</td>
-      <td>0.295</td>
-      <td>29</td>
-      <td>80</td>
-      <td>16</td>
-      <td>0.391</td>
-      <td>0.915</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2020</td>
-      <td>LAD</td>
-      <td>0.292</td>
-      <td>16</td>
-      <td>39</td>
-      <td>10</td>
-      <td>0.366</td>
-      <td>0.927</td>
+      <th>1</th>
+      <td>Thu 4/1</td>
+      <td>@COL</td>
+      <td>L8-5</td>
+      <td>6</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
