@@ -1,7 +1,6 @@
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>Date</th>
       <th>OPP</th>
       <th>Result</th>
@@ -18,7 +17,48 @@
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
+      <td>Mon 4/5</td>
+      <td>vsSF</td>
+      <td>L3-2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Sun 4/4</td>
+      <td>vsARI</td>
+      <td>L3-1</td>
+      <td>4</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Sat 4/3</td>
+      <td>vsARI</td>
+      <td>W7-0</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
       <td>Fri 4/2</td>
       <td>vsARI</td>
       <td>W4-2</td>
@@ -33,7 +73,6 @@
       <td>2</td>
     </tr>
     <tr>
-      <th>1</th>
       <td>Thu 4/1</td>
       <td>vsARI</td>
       <td>W8-7</td>

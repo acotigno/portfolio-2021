@@ -245,20 +245,25 @@ p.bio {
     display: inline-block;
 }
 
-img#citi {
+img#citi, img#citi2 {
     display:block;
     margin-left:auto;
     margin-right:auto;
     width: 300px;
     height: 350px;
+    animation-name:enlarge;
+    animation-duration: 2s;
 }
 
-img#citi2 {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width: 300px;
-    height: 350px;
+@keyframes enlarge {
+    from {
+        width: 50px;
+        height: 100px;
+    }
+    to {
+        width: 300px;
+        height: 350px;
+    }
 }
 
 h1 {
@@ -450,7 +455,19 @@ footer p {
 }
 
 @media all and (prefers-reduced-motion:reduce){
-    img {
-        animation:none;
-    }
+    .start_image, .about_image, .players_image, .teams_image {
+        background-attachment: scroll;
+      }
+      .baseball-card:hover .baseball-card-inner, 
+      .baseball-card:focus-within .baseball-card-inner,
+      .baseball-card:focus .baseball-card-inner {
+          transform:none;
+      }
+
+      img#citi, img#citi2 {
+          animation-duration: 0s;
+          width: 300px;
+          height: 350px;
+      }
+
 }

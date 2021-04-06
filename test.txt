@@ -1,7 +1,6 @@
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>Date</th>
       <th>OPP</th>
       <th>Result</th>
@@ -18,7 +17,34 @@
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
+      <td>Mon 4/5</td>
+      <td>@OAK</td>
+      <td>W10-3</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Sun 4/4</td>
+      <td>@COL</td>
+      <td>W4-2</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
       <td>Fri 4/2</td>
       <td>@COL</td>
       <td>W11-6</td>
@@ -33,7 +59,6 @@
       <td>0</td>
     </tr>
     <tr>
-      <th>1</th>
       <td>Thu 4/1</td>
       <td>@COL</td>
       <td>L8-5</td>
