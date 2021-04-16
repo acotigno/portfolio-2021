@@ -17,6 +17,48 @@
   </thead>
   <tbody>
     <tr>
+      <td>Wed 4/14</td>
+      <td>vsCOL</td>
+      <td>W4-2</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Tue 4/13</td>
+      <td>vsCOL</td>
+      <td>W7-0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Tue 4/6</td>
+      <td>@OAK</td>
+      <td>W5-1</td>
+      <td>5</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
       <td>Mon 4/5</td>
       <td>@OAK</td>
       <td>W10-3</td>
@@ -43,34 +85,6 @@
       <td>0</td>
       <td>2</td>
       <td>0</td>
-    </tr>
-    <tr>
-      <td>Fri 4/2</td>
-      <td>@COL</td>
-      <td>W11-6</td>
-      <td>5</td>
-      <td>2</td>
-      <td>2</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <td>Thu 4/1</td>
-      <td>@COL</td>
-      <td>L8-5</td>
-      <td>6</td>
-      <td>1</td>
-      <td>2</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
     </tr>
   </tbody>
 </table>

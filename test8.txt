@@ -17,59 +17,73 @@
   </thead>
   <tbody>
     <tr>
-      <td>Mon 4/5</td>
+      <td>Sun 4/11</td>
+      <td>@STL</td>
+      <td>W9-3</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Sat 4/10</td>
+      <td>@STL</td>
+      <td>W9-5</td>
+      <td>3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Thu 4/8</td>
+      <td>@STL</td>
+      <td>L3-1</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Wed 4/7</td>
       <td>@CHC</td>
-      <td>L5-3</td>
+      <td>W4-2 F/10</td>
+      <td>4</td>
+      <td>0</td>
       <td>3</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Tue 4/6</td>
+      <td>@CHC</td>
+      <td>W4-0</td>
       <td>3</td>
-    </tr>
-    <tr>
-      <td>Sun 4/4</td>
-      <td>vsMIN</td>
-      <td>L8-2</td>
-      <td>4</td>
-      <td>0</td>
+      <td>1</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>Sat 4/3</td>
-      <td>vsMIN</td>
-      <td>L2-0</td>
-      <td>4</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Thu 4/1</td>
-      <td>vsMIN</td>
-      <td>W6-5 F/10</td>
-      <td>4</td>
-      <td>2</td>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>1</td>
-      <td>0</td>
       <td>1</td>
     </tr>
   </tbody>

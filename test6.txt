@@ -17,38 +17,52 @@
   </thead>
   <tbody>
     <tr>
-      <td>Mon 4/5</td>
-      <td>vsHOU</td>
-      <td>W7-6</td>
-      <td>3</td>
+      <td>Wed 4/14</td>
+      <td>@KC</td>
+      <td>L6-1</td>
+      <td>4</td>
       <td>1</td>
       <td>2</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
+      <td>0</td>
+      <td>0</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>Sun 4/4</td>
-      <td>vsCHW</td>
-      <td>W7-4</td>
+      <td>Tue 4/13</td>
+      <td>@KC</td>
+      <td>L3-2</td>
+      <td>5</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Mon 4/12</td>
+      <td>@KC</td>
+      <td>W10-3</td>
       <td>4</td>
       <td>1</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>1</td>
+      <td>2</td>
       <td>1</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>Sat 4/3</td>
-      <td>vsCHW</td>
-      <td>W5-3</td>
-      <td>3</td>
+      <td>Sat 4/10</td>
+      <td>@TOR</td>
+      <td>L15-1</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -56,35 +70,21 @@
       <td>0</td>
       <td>0</td>
       <td>1</td>
-      <td>3</td>
+      <td>0</td>
     </tr>
     <tr>
-      <td>Fri 4/2</td>
-      <td>vsCHW</td>
-      <td>L12-8</td>
-      <td>3</td>
+      <td>Fri 4/9</td>
+      <td>@TOR</td>
+      <td>W7-1</td>
+      <td>4</td>
       <td>1</td>
       <td>2</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
-      <td>2</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Thu 4/1</td>
-      <td>vsCHW</td>
-      <td>W4-3</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>1</td>
-      <td>2</td>
-      <td>1</td>
+      <td>0</td>
     </tr>
   </tbody>
 </table>

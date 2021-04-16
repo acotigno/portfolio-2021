@@ -21,7 +21,7 @@ nav a:hover {
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 1px) {
     nav {
         display: flex;
         flex-wrap: wrap;
@@ -58,18 +58,15 @@ nav a:hover {
     .flex-container > div {
         flex-basis: 100%;
         align-self: center;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
     
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
     nav {
-        display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
-        align-items: center;
       }
 
     nav a {
@@ -77,11 +74,7 @@ nav a:hover {
     }
 
     div#baseball-cards {
-        display:grid;
         grid-template-columns: 1fr 1fr;
-        justify-items: center;
-        align-items: center;
-        grid-gap: 15px;
     }
 
     input[type=text], select, textarea {
@@ -90,15 +83,12 @@ nav a:hover {
 
     .flex-container > div {
         flex-basis: 20%;
-        margin-bottom: 25px;
     }
 
     .flex-container{
-        display: flex;
-        flex-wrap: wrap;
         justify-content: space-evenly;
-        align-items: center;
         margin-left: 0px;
+        flex-direction: row;
     }
 
     div.team img {
@@ -114,20 +104,13 @@ nav a:hover {
 
 @media screen and (min-width: 1025px) {
     div#baseball-cards {
-        display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center;
-        align-items: center;
-        grid-gap: 15px;
     }
 
     input[type=text], select, textarea {
         width: 100%;
     }
 
-    .flex-container{
-        margin-left: 0px;
-    }
     div.team{
         filter:grayscale(0.75);
         transition-property: border-radius, border-color, border-width, filter;
@@ -469,5 +452,10 @@ footer p {
           width: 300px;
           height: 350px;
       }
+    
+    a.skip {
+        position:absolute;
+        top:10px;
+    }
 
 }

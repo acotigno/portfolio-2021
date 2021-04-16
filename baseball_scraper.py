@@ -14,7 +14,7 @@ bryant = df3[3]
 bryant.to_html("test3.txt",index=False)
 
 df4 = pd.read_html("https://www.espn.com/mlb/player/_/id/32796/jacob-degrom")
-degrom = df4[3]
+degrom = df4[2]
 degrom.to_html("test4.txt",index=False)
 
 df5 = pd.read_html("https://www.espn.com/mlb/player/_/id/35983/fernando-tatis-jr")

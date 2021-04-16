@@ -17,60 +17,74 @@
   </thead>
   <tbody>
     <tr>
-      <td>Mon 4/5</td>
-      <td>@LAA</td>
-      <td>L7-6</td>
-      <td>5</td>
-      <td>0</td>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>Sun 4/4</td>
-      <td>@OAK</td>
-      <td>W9-2</td>
-      <td>4</td>
-      <td>0</td>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>Fri 4/2</td>
-      <td>@OAK</td>
-      <td>W9-5</td>
-      <td>4</td>
-      <td>2</td>
-      <td>2</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
+      <td>Tue 4/13</td>
+      <td>vsDET</td>
+      <td>L8-2</td>
       <td>3</td>
+      <td>0</td>
       <td>1</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
     </tr>
     <tr>
-      <td>Thu 4/1</td>
-      <td>@OAK</td>
-      <td>W8-1</td>
+      <td>Mon 4/12</td>
+      <td>vsDET</td>
+      <td>L6-2</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Fri 4/9</td>
+      <td>vsOAK</td>
+      <td>L6-2</td>
       <td>4</td>
-      <td>2</td>
-      <td>2</td>
-      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Thu 4/8</td>
+      <td>vsOAK</td>
+      <td>W6-2</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Tue 4/6</td>
+      <td>@LAA</td>
+      <td>W4-2</td>
+      <td>4</td>
       <td>0</td>
       <td>1</td>
-      <td>2</td>
-      <td>1</td>
       <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>

@@ -17,13 +17,13 @@
   </thead>
   <tbody>
     <tr>
-      <td>Mon 4/5</td>
-      <td>@MIA</td>
-      <td>W4-1</td>
+      <td>Wed 4/14</td>
+      <td>vsWSH</td>
+      <td>L6-0</td>
       <td>4</td>
       <td>0</td>
-      <td>2</td>
-      <td>0</td>
+      <td>1</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -31,46 +31,60 @@
       <td>0</td>
     </tr>
     <tr>
-      <td>Sun 4/4</td>
-      <td>@CIN</td>
-      <td>L12-1</td>
+      <td>Tue 4/13</td>
+      <td>vsWSH</td>
+      <td>W14-3</td>
+      <td>3</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Mon 4/12</td>
+      <td>vsWSH</td>
+      <td>L5-2</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Sun 4/11</td>
+      <td>vsMIL</td>
+      <td>L9-3</td>
       <td>3</td>
       <td>0</td>
       <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
-      <td>Sat 4/3</td>
-      <td>@CIN</td>
-      <td>L9-6</td>
-      <td>5</td>
-      <td>2</td>
-      <td>2</td>
-      <td>0</td>
+      <td>Sat 4/10</td>
+      <td>vsMIL</td>
+      <td>L9-5</td>
+      <td>4</td>
       <td>0</td>
       <td>1</td>
-      <td>2</td>
-      <td>0</td>
       <td>1</td>
-    </tr>
-    <tr>
-      <td>Thu 4/1</td>
-      <td>@CIN</td>
-      <td>W11-6</td>
-      <td>5</td>
-      <td>1</td>
-      <td>2</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>2</td>
     </tr>
   </tbody>
 </table>
